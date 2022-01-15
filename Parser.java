@@ -1,4 +1,4 @@
-/* Complete all the methods.
+/* 
 EBNF of Mini Language
 Program" --> "("Sequence State")".
 Sequence --> "("Statements")".
@@ -14,9 +14,6 @@ Loop --> "loop" Expression Stmt.
 Block --> "block" Statements.
 Expression --> Identifier | Literal | "("Operation Expression Expression")".
 Operation --> "+" |"-" | "*" | "/" | "<" | "<=" | ">" | ">=" | "=" | "!=" | "or" | "and".
-
-Note: Treat Identifier and Literal as terminal symbols. Every symbol inside " and " is a terminal symbol. The rest are non terminals.
-
 */
 public class Parser{
   private Token currentToken;
