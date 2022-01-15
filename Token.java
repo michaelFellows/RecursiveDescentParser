@@ -1,6 +1,4 @@
-/* You do not need a separate token (number) for each operator. All of them
-   should be translated to one token (number) which is OPERATOR. See below
-
+/* 
    Program --> Sequence State.
    Sequence --> (Statements ).
    Statements --> Statements Stmt | Stmt
